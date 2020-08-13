@@ -41,7 +41,7 @@ class MainGUI:
         infoFrame = LabelFrame(window, bd=5)
         infoFrame.grid(row=1, column=1)
         
-        name_var1 = "Sour Banana Sherbert x Puta Breath"
+        name_var1 = "Test Text Here"
         date_var1 = "June 19, 2019"
         date_var_begin = datetime.datetime.strptime("2019, 06, 19" , "%Y, %m, %d")
         now = datetime.datetime.now()
